@@ -1,13 +1,9 @@
-# Udacity Data Scientist Nanodegree Capstone Project
-This repository has all the code and report for my Udacity Data Scientist Nanodegree Capstone project.
-# Starbucks-Capstone-Challenge
 
-## Blog post on Medium  
-https://medium.com/@reemalsaedi6/starbucks-capstone-challenge-b5a91fcc997d
+# Starbucks-Capstone-Challenge
+ Udacity Data Scientist Nanodegree Capstone Project
 
 ## Install
 This project requires Python 3.x and the following Python libraries installed:
-
 - NumPy
 - Pandas
 - matplotlib
@@ -52,6 +48,10 @@ Event log (306648 events x 4 fields)
 
 ### Results
 My analysis suggests that the resulting random forest model has an training data accuracy of 0.944 and an F1-score of 0.939. The test data set accuracy of 0.929 and F1-score of 0.931 suggests that the random forest model I constructed did not overfit the training data.
+
+
+## Blog post on Medium  
+https://medium.com/@reemalsaedi6/starbucks-capstone-challenge-b5a91fcc997d
 
 ### Licensing, Authors, Acknowledgements, etc.
 Data for coding project was provided by Udacity.
