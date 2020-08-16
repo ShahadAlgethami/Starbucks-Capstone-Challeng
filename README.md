@@ -8,7 +8,7 @@ This project requires Python 3.x and the following Python libraries installed:
 - Pandas
 - matplotlib
 - scikit-learn
-## Dataset overview
+## Project overview
 The program used to create the data simulates how people make purchasing decisions and how those decisions are influenced by promotional offers.
 Each person in the simulation has some hidden traits that influence their purchasing patterns and are associated with their observable traits. People produce various events, including receiving offers, opening offers, and making purchases.
 As a simplification, there are no explicit products to track. Only the amounts of each transaction or offer are recorded.
@@ -50,7 +50,7 @@ Event log (306648 events x 4 fields)
 My analysis suggests that the resulting random forest model has an training data accuracy of 0.944 and an F1-score of 0.939. The test data set accuracy of 0.929 and F1-score of 0.931 suggests that the random forest model I constructed did not overfit the training data.
 
 
-## Blog post on Medium  
+### Blog post on Medium  
 https://medium.com/@reemalsaedi6/starbucks-capstone-challenge-b5a91fcc997d
 
 ### Licensing, Authors, Acknowledgements.
