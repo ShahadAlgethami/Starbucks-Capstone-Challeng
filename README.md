@@ -20,7 +20,7 @@ As stated above, the problem statement I am aiming to answer are to (1) Discover
 Using the data provided, I answer the above first question using charts for (Demographic data for each customer) and the second question using 3 classification supervised machine learning models, feeding in the data from three combine data (portfolio, profile, Transactional).
 
 ## Data 
-### profile.json
+### 1.profile.json
 Rewards program users (17000 users x 5 fields)
 - gender: (categorical) M, F, O, or null
 - age: (numeric) missing value encoded as 118
@@ -28,7 +28,7 @@ Rewards program users (17000 users x 5 fields)
 - became_member_on: (date) format YYYYMMDD
 - income: (numeric)
 
-### portfolio.json
+### 2.portfolio.json
 Offers sent during 30-day test period (10 offers x 6 fields)
 - reward: (numeric) money awarded for the amount spent
 - channels: (list) web, email, mobile, social
@@ -36,7 +36,7 @@ Offers sent during 30-day test period (10 offers x 6 fields)
 - duration: (numeric) time for offer to be open, in days
 - offer_type: (string) bogo, discount, informational
 - id: (string/hash)
-### transcript.json
+### 3.transcript.json
 Event log (306648 events x 4 fields)
 - person: (string/hash)
 - event: (string) offer received, offer viewed, transaction, offer completed
@@ -46,13 +46,12 @@ Event log (306648 events x 4 fields)
 3. reward: (numeric) money gained from "offer completed"
 - time: (numeric) hours after start of test
 
-### Results
+## Results
 My analysis suggests that the resulting random forest model has an training data accuracy of 0.944 and an F1-score of 0.939. The test data set accuracy of 0.929 and F1-score of 0.931 suggests that the random forest model I constructed did not overfit the training data.
 
+The main observations of the code are published [here](https://medium.com/@reemalsaedi6/starbucks-capstone-challenge-b5a91fcc997d).
+  
 
-### Blog post on Medium  
-https://medium.com/@reemalsaedi6/starbucks-capstone-challenge-b5a91fcc997d
-
-### Licensing, Authors, Acknowledgements.
-I would like to thank [Udacity](https://eu.udacity.com/) for this amazing project, and [IBM](https://dataplatform.cloud.ibm.com/) for providing the data.
+## Licensing, Authors, Acknowledgements.
+I would like to thank [Udacity](https://eu.udacity.com/) for this amazing project, and Starbucks for the dataset..
 
