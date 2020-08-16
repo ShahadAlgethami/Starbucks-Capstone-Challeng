@@ -53,5 +53,6 @@ My analysis suggests that the resulting random forest model has an training data
 ## Blog post on Medium  
 https://medium.com/@reemalsaedi6/starbucks-capstone-challenge-b5a91fcc997d
 
-### Licensing, Authors, Acknowledgements, etc.
-Data for coding project was provided by Udacity.
+### Licensing, Authors, Acknowledgements.
+I would like to thank [Udacity](https://eu.udacity.com/) for this amazing project, and [IBM](https://dataplatform.cloud.ibm.com/) for providing the data.
+
