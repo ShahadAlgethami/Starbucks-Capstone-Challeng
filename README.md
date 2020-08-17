@@ -49,7 +49,7 @@ Event log (306648 events x 4 fields)
 ## Results
 My analysis suggests that the resulting random forest model has an training data accuracy of 0.944 and an F1-score of 0.939. The test data set accuracy of 0.929 and F1-score of 0.931 suggests that the random forest model I constructed did not overfit the training data.
 
-The main observations of the code are published [here](https://medium.com/@reemalsaedi6/starbucks-capstone-challenge-b5a91fcc997d).
+The main observations of the code are published [here](https://medium.com/@algethamishahad/how-much-do-you-spend-on-coffee-70e9026df7bd?sk=9eb212508ef7714eddd8b3edd9f923ac).
   
 
 ## Licensing, Authors, Acknowledgements.
